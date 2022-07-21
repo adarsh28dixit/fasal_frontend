@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.playlist {
+  float: left;
+}
+
+.playlist > img {
+  width: 30%;
+  height: 30%;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+ margin-left: 30%;
+  
+}
+.item > img {
+  width: 23%;
+  height: 25%;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+ 
+.span > span {
+  padding:.6rem;
+  display: flex;
+  flex-direction: row;
+}
